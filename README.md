@@ -13,7 +13,7 @@ Jotting down ideas of what I need my game to do and what functions are required 
 6. Funtion with timer to end the game after 1 min is over. 
 7. A button with a function that will reset the game. 
 
-##Wire Frames
+## Wire Frames
 ![What-A-Mole](https://user-images.githubusercontent.com/101548840/162060307-a68218d1-0e6d-40d3-800a-f568a5ff24ac.png)
 
 
@@ -21,17 +21,17 @@ Jotting down ideas of what I need my game to do and what functions are required 
 
 
 
-##User Stories
+## User Stories
 As a player I want to be able to whack the mole when I click the mouse on the mole image.
 When the mole is successfully clicked I want the scoreboard to update by adding 1 point per mole.
 When the time limit is reached, the game will end. 
 
 
-##MVP Goals
+## MVP Goals
 As a player I want to be able to whack the mole when I click the mouse on the mole image.
 When the mole is successfully clicked I want the scoreboard to update by adding 1 point per mole.
 When the time limit is reached, the game will end. 
 
-##Strech Goals
+## Strech Goals
 I want to be able to keep track of previous game scores in a highscore board.
 I would like to add a golden mole that will give user 5 points and a black mole that will take away 5 points when clicked(whacked).
