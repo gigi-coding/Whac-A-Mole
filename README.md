@@ -35,3 +35,5 @@ When the time limit is reached, the game will end.
 ## Strech Goals
 I want to be able to keep track of previous game scores in a highscore board.
 I would like to add a golden mole that will give user 5 points and a black mole that will take away 5 points when clicked(whacked).
+Figure out how to turn my mouse pointer into a sledgehammer. 
+Make it a cool design with CSS! 
