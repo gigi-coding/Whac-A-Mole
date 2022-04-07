@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    border-style: double;
+}
+
+.flexbox-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px ;
+    height: 150px;
+    border-style: solid;
+
+}
