@@ -1,3 +1,7 @@
+*{
+font-family: 'Rubik Bubbles', cursive;
+}
+
 .board {
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +11,7 @@
     border-style: double;
 }
 
-.flexbox-item {
+.hole {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,4 +20,8 @@
     height: 150px;
     border-style: solid;
 
+}
+
+.mole {
+    background-image: url("https://media4.giphy.com/media/l3vRkpOS2J2s97zzy/giphy.gif?cid=ecf05e47sac45vamkih17kn2i0vh5ax3lm59jdcnt8gljesn&rid=giphy.gif&ct=g")  ;
 }
