@@ -19,16 +19,14 @@ function randomHole(){
     console.log(randomMolePosition)
 }
 
-randomHole()
-
-
-
-
-
-
-
+// randomHole()
 
 // Create a function that will allow the mole to be on said square for X amount of time using setInterval
+function surpriseMole(){
+    
+} 
+// setInterval(function name, time in miliseconds we want the function to run)
+setInterval(randomMolePosition, 3000)
 
 // Create a function to keep track of the time
 // function timerUpdate 

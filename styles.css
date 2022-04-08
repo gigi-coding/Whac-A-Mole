@@ -1,5 +1,23 @@
 *{
-font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+body {
+    font-size: 50px;
+    background-image: url("https://i.pinimg.com/564x/83/f4/a7/83f4a71cecf992b0a128b90c1cd9110f.jpg");no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keepers{
+    display: flex;
+    gap: 50px;
 }
 
 .board {
@@ -8,7 +26,8 @@ font-family: 'Rubik Bubbles', cursive;
     justify-content: center;
     align-items: center;
     width: 800px;
-    border-style: double;
+    height: 250px;
+    padding-top: 240px;
 }
 
 .hole {
@@ -16,12 +35,16 @@ font-family: 'Rubik Bubbles', cursive;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 200px ;
-    height: 150px;
+    width: 150px ;
+    height: 100px;
     border-style: solid;
 
 }
 
 .mole {
-    background-image: url("https://media4.giphy.com/media/l3vRkpOS2J2s97zzy/giphy.gif?cid=ecf05e47sac45vamkih17kn2i0vh5ax3lm59jdcnt8gljesn&rid=giphy.gif&ct=g")  ;
+    background-image: url("https://i.pinimg.com/564x/6c/17/39/6c1739283f50cd7cef21fd3b2dd7d55e.jpg");
+}
+
+*{
+    border: 1px solid red;
 }
