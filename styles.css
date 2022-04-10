@@ -43,6 +43,8 @@ body {
 
 .mole {
     background-image: url("https://i.pinimg.com/564x/6c/17/39/6c1739283f50cd7cef21fd3b2dd7d55e.jpg");
+    background-position: center;
+    background-size: 150px;
 }
 
 *{

@@ -14,19 +14,25 @@ function randomHole(){
         hole.classList.remove("mole")
                                          // I want to get the hole and remove the mole if it exist in any of the holes 
     })
-   
-    let randomMolePosition = holes[Math.floor(Math.random()*holes.length)]
-    console.log(randomMolePosition)
 }
-
-// randomHole()
-
+let randomMolePosition =()=>{
+ let randomMole = holes[Math.floor(Math.random()*holes.length)]
+    randomMole.classList.add("mole")
+    setTimeout(()=>{
+        randomMole.classList.remove("mole")
+    },500)
+}
+// randomMole()
+randomHole()
+setInterval(randomMolePosition, 500)
 // Create a function that will allow the mole to be on said square for X amount of time using setInterval
-function surpriseMole(){
+// function surpriseMole(){
     
-} 
+// } 
+
+
 // setInterval(function name, time in miliseconds we want the function to run)
-setInterval(randomMolePosition, 3000)
+
 
 // Create a function to keep track of the time
 // function timerUpdate 
