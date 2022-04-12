@@ -3,8 +3,7 @@ const holes = document.querySelectorAll(".hole");
 const scoreBoard = document.querySelector(".score");
 const timer = document.querySelector(".timer");
 let currentScore = 0;
-let endTime = 30;
-let currentTime = 0
+let currentTime = 30
 let randomMole = holes[Math.floor(Math.random()*holes.length)]
 
 
@@ -66,7 +65,7 @@ function moleHit(event) {
         currentScore += 5;
         scoreBoard.innerHTML = `Score: ${currentScore}`
     }
-    else if(event.target.class[1] === "hotMole"){
+    else if(event.target.classList[1] === "hotMole"){
         currentScore -= 10;
         scoreBoard.innerHTML = `Score: ${currentScore}`
     }
@@ -76,10 +75,13 @@ function moleHit(event) {
     return currentScore
 
 }
+// function countDown(){
+//     currentTime
+//     timer.innerHTML = `Timer: ${time}`
+//     currentTime ++ 
+//     setInterval(currentTime++ )
+// }
 
-// timer.innerHTML = `Timer: ${time}`
-// currentTime ++ 
-// setInterval(currentTime++ )
 
     
 // Create a function to keep track of the time
