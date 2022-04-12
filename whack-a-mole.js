@@ -5,6 +5,7 @@ const timer = document.querySelector(".timer");
 let currentScore = 0;
 let endTime = 30;
 let currentTime = 0
+let randomMole = holes[Math.floor(Math.random()*holes.length)]
 
 
 
@@ -23,7 +24,13 @@ let randomMolePosition =()=>{
 // randomHole()
 setInterval(randomMolePosition, 1000)
 
-
+let magicMolePosition=()=>{
+randomMole.classList.add("magicMole")
+setTimeout(()=>{
+    randomMole.classList.remove("magicMole")
+},500)
+}
+setInterval(randomMolePosition, 500)
 // Create a function that will have an eventListner on the gameboard hole so when it is clicked it will add a point to the scoreboard if there was a mole on it. 
 // Create a function for the scoreboard
 // function scoreUpdate
