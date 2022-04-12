@@ -42,17 +42,18 @@ h2{
                  -36px 36px #2a0d50;
 }  
 #game {
-    background-image: url("https://c.tenor.com/zLS65eydF60AAAAC/magic-potato.gif");
+    /* background-image: url("https://c.tenor.com/zLS65eydF60AAAAC/magic-potato.gif"); */
+    background-image: url("https://media0.giphy.com/media/jTGiUVEi9KcQ2VrtmB/giphy.gif?cid=ecf05e475mqj9pzhrix3tk741m9fe9tqxmifq2wlwxld1rog&rid=giphy.gif&ct=g");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     background-repeat: no-repeat;
-    background-color: black;
+    /* background-color: black; */
 }
 #home {
     background-image: url("https://pr0.nicelocal.com.au/wMR2ybR6IadPx49nR87RCA/440x440,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2ZjwjbH4k2X7fvCZHcHLuGdLFPMCr2nxLYuzuzGhazwBlw-U8_yQzyqYHZgQOHoabA");
@@ -69,14 +70,21 @@ h2{
 }  
 
 .keepers{
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
     align-items: center;
-    color: white;
+    color: rgb(5, 5, 5);
     font-size: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     align-content: center;
-    border: 10px double #FF00CC;
+    /* border: 10px double #4e3862; */
+    border-radius: 10px;
+}
+#score{
+    
 }
 
 .board {
@@ -96,7 +104,8 @@ h2{
     align-items: center;
     width: 150px ;
     height: 100px;
-    border: 10px solid #ccff00ea 
+    border: 10px solid #ccff00ea;
+    border-radius: 10px;
 }
 
 .mole {
@@ -117,7 +126,8 @@ h2{
     background-position: center;
     background-size: 150px;
 }
-/* *{
+
+*{
     border: 1px solid red;
 
-} */
+}
