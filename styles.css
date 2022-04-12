@@ -54,6 +54,7 @@ h2{
 }
 #home {
     background-image: url("https://pr0.nicelocal.com.au/wMR2ybR6IadPx49nR87RCA/440x440,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2ZjwjbH4k2X7fvCZHcHLuGdLFPMCr2nxLYuzuzGhazwBlw-U8_yQzyqYHZgQOHoabA");
+    /* background-image: url("https://media4.giphy.com/media/Q0nYvSd1wAvXW/giphy.gif?cid=ecf05e47befhsjd9lyg65uibh2puii8upgh0ugsepxgttzy6&rid=giphy.gif&ct=g"); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,7 +103,7 @@ h2{
 }
 
 .mole {
-    background-image: url("https://i.pinimg.com/564x/6c/17/39/6c1739283f50cd7cef21fd3b2dd7d55e.jpg");
+    background-image: url("https://media3.giphy.com/media/12a3cXp4zXY1xe/giphy.gif?cid=ecf05e47v8eozv9m5p8h4xgyusn0s1n8t2x1hizrts933x1n&rid=giphy.gif&ct=g");
     background-position: center;
     background-size: 150px;
 }

@@ -66,6 +66,10 @@ function moleHit(event) {
         currentScore += 5;
         scoreBoard.innerHTML = `Score: ${currentScore}`
     }
+    else if(event.target.class[1] === "hotMole"){
+        currentScore -= 10;
+        scoreBoard.innerHTML = `Score: ${currentScore}`
+    }
 
 
     console.log(scoreBoard.innerHTML)
