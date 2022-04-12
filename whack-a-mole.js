@@ -1,10 +1,11 @@
 // Define all elements 
 const holes = document.querySelectorAll(".hole");
 const scoreBoard = document.querySelector(".score");
-const timer = document.querySelector(".timer");
 let currentScore = 0;
-let currentTime = 30
 let randomMole = holes[Math.floor(Math.random()*holes.length)]
+const timer = document.querySelector(".timer");
+let currentTime = 30
+
 
 
 
@@ -75,12 +76,20 @@ function moleHit(event) {
     return currentScore
 
 }
-// function countDown(){
-//     currentTime
-//     timer.innerHTML = `Timer: ${time}`
-//     currentTime ++ 
-//     setInterval(currentTime++ )
-// }
+
+let counter = setInterval(countDown, 1000);
+
+function countDown(){
+
+    currentTime = currentTime-1;
+    timer.innerHTML = `Timer: ${currentTime}s`
+
+    if (currentTime <= 0){
+        clearInterval(counter);
+        let gameboard = document.querySelector("#game")
+        gameboard.style.pointerEvents = "none";
+    }
+}
 
 
     
