@@ -18,19 +18,32 @@ let randomMolePosition =()=>{
     setTimeout(()=>{
         
         randomMole.classList.remove("mole")
-    },1000)
+    },800)
 }
 // randomMole()
 // randomHole()
 setInterval(randomMolePosition, 1000)
 
 let magicMolePosition=()=>{
-randomMole.classList.add("magicMole")
-setTimeout(()=>{
-    randomMole.classList.remove("magicMole")
-},500)
+    let randomMagicMole = holes[Math.floor(Math.random()*holes.length)]
+    randomMagicMole.classList.add("magicMole")
+        setTimeout(()=>{
+    
+            randomMagicMole.classList.remove("magicMole")
+            },1000)
 }
-setInterval(randomMolePosition, 500)
+setInterval(magicMolePosition, 5000)
+
+let hotMolePosition=()=>{
+    let randomHotMole = holes[Math.floor(Math.random()*holes.length)]
+    randomHotMole.classList.add("hotMole")
+        setTimeout(()=>{
+    
+            randomHotMole.classList.remove("hotMole")
+            },500)
+}
+setInterval(hotMolePosition, 500)
+
 // Create a function that will have an eventListner on the gameboard hole so when it is clicked it will add a point to the scoreboard if there was a mole on it. 
 // Create a function for the scoreboard
 // function scoreUpdate
@@ -41,7 +54,7 @@ holes.forEach(moles => {
     moles.addEventListener("click", moleHit)
 })
 
-function moleHit() {
+function moleHit(event) {
     // console.log(event) the event is the click on the mole.
     if (event.target.classList[1] === "mole"){
       
@@ -49,7 +62,12 @@ function moleHit() {
         console.log(currentScore);
         scoreBoard.innerHTML = `Score: ${currentScore}`
     }
-    
+    else if(event.target.classList[1] === "magicMole"){
+        currentScore += 5;
+        scoreBoard.innerHTML = `Score: ${currentScore}`
+    }
+
+
     console.log(scoreBoard.innerHTML)
     return currentScore
 

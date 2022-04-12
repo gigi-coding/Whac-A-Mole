@@ -41,7 +41,17 @@ h2{
                  -32px 32px #2a084a,
                  -36px 36px #2a0d50;
 }  
-
+#game{
+    background-image: url("https://c.tenor.com/zLS65eydF60AAAAC/magic-potato.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #home {
     background-image: url("https://pr0.nicelocal.com.au/wMR2ybR6IadPx49nR87RCA/440x440,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2ZjwjbH4k2X7fvCZHcHLuGdLFPMCr2nxLYuzuzGhazwBlw-U8_yQzyqYHZgQOHoabA");
     -webkit-background-size: cover;
@@ -56,19 +66,26 @@ h2{
 
 .keepers{
     display: flex;
+    justify-content: 
+    align-items: center;
     color: black;
-    font-size:25px;
-    display: flex;
-    gap: 50px;
-    margin-left: 120px;
+    font-size:35px;
+    /* margin-left: 120px; */
     padding-top: 30px;
     align-content: center;
+}
+.score{
+    border: 10px double #FF00CC ;
+}
+
+.timer{
+    border: 10px double #FF00CC ;
 }
 
 .board {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-around
     align-items: center;
     width: 800px;
     height: 250px;
@@ -91,11 +108,18 @@ h2{
 }
 
 .magicMole {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppij3evX6qqvC8-Cd1t102l6WCARDC51WBCfNHitP48HmMsH2wYsumkWh7b1e25qhLH0&usqp=CAU");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppij3evX6qqvC8-Cd1t102l6WCARDC51WBCfNHitP48HmMsH2wYsumkWh7b1e25qhLH0&usqp=CAU"); */
+    background-image: url("https://media2.giphy.com/media/fdS8al30MFz8Z2416E/giphy.gif?cid=ecf05e47wb9komp0qe8c04d87u3zrrslhiq934rkc0mmnt3u&rid=giphy.gif&ct=g");
     background-position: center;
     background-size: 150px;
 }
 
+.hotMole{
+    background-image: url("https://media3.giphy.com/media/3o7bu4EJkrXG9Bvs9G/giphy.gif?cid=ecf05e47gyyrvcya94g8g6tlkkcdvzydqikzw64xw8tf5c2n&rid=giphy.gif&ct=g");
+    background-position: center;
+    background-size: 150px;
+}
 /* *{
     border: 1px solid red;
+
 } */
