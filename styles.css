@@ -1,10 +1,49 @@
 *{
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    text-align: center;
 }
 
-body {
-    font-size: 50px;
-    background-image: url("https://i.pinimg.com/564x/83/f4/a7/83f4a71cecf992b0a128b90c1cd9110f.jpg");no-repeat center fixed;
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: rgb(237, 190, 190);
+    text-shadow: -4px 4px #e68896,
+                 -8px 8px #a5365b,
+                 -12px 12px #66489a,
+                 -16px 16px #406f96,
+                 -20px 20px #31828d,
+                 -24px 24px #3e6f40,
+                 -28px 28px #8b942e,
+                 -32px 32px #a87625,
+                 -36px 36px #9b3d21;
+  }
+  
+h2{
+    margin-top: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: rgb(113, 86, 168);
+    text-shadow: -4px 4px #411c78e5,
+                 -8px 8px #4c2264,
+                 -12px 12px #482289,
+                 -16px 16px #2a145d,
+                 -20px 20px #220a34,
+                 -24px 24px #2a084b,
+                 -28px 28px #350e4d,
+                 -32px 32px #2a084a,
+                 -36px 36px #2a0d50;
+}  
+
+#home {
+    background-image: url("https://pr0.nicelocal.com.au/wMR2ybR6IadPx49nR87RCA/440x440,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2ZjwjbH4k2X7fvCZHcHLuGdLFPMCr2nxLYuzuzGhazwBlw-U8_yQzyqYHZgQOHoabA");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,11 +52,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+}  
 
 .keepers{
     display: flex;
+    color: black;
+    font-size:25px;
+    display: flex;
     gap: 50px;
+    margin-left: 120px;
+    padding-top: 30px;
+    align-content: center;
 }
 
 .board {
@@ -37,8 +82,6 @@ body {
     align-items: center;
     width: 150px ;
     height: 100px;
-    border-style: solid;
-
 }
 
 .mole {
@@ -47,6 +90,12 @@ body {
     background-size: 150px;
 }
 
-*{
-    border: 1px solid red;
+.magicMole {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppij3evX6qqvC8-Cd1t102l6WCARDC51WBCfNHitP48HmMsH2wYsumkWh7b1e25qhLH0&usqp=CAU");
+    background-position: center;
+    background-size: 150px;
 }
+
+/* *{
+    border: 1px solid red;
+} */
