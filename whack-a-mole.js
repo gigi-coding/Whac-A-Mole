@@ -7,8 +7,12 @@ let currentScore = 0;
 let randomMole = holes[Math.floor(Math.random()*holes.length)]
 const timer = document.querySelector(".timer");
 let currentTime = 30
+let counter;
 
 //Start Button Function, to start the timer on the game and prevent anything from being clicked besides the Start button.
+let randomMoleInterval;
+let magicMoleInterval;
+let hotMoleInterval;
 
 startButton.addEventListener("click",startGame)
 function startGame(){
@@ -24,18 +28,22 @@ function startGame(){
             gameboard.style.pointerEvents = "none";
         }
     }
-    let counter = setInterval(countDown, 1000);
-    let randomMoleInterval = setInterval(randomMolePosition, 1000)
-    let magicMoleInterval = setInterval(magicMolePosition, 5000)
-    let hotMoleInterval = setInterval(hotMolePosition, 500)
+    counter = setInterval(countDown, 1000);
+    randomMoleInterval = setInterval(randomMolePosition, 1000)
+    magicMoleInterval = setInterval(magicMolePosition, 5000)
+    hotMoleInterval = setInterval(hotMolePosition, 500)
 }
 
-// resetButton.addEventListener("click", resetGame)
+resetButton.addEventListener("click", resetGame)
  
-// function resetGame(){
-//     clearInterval(randomMoleInterval)
-
-// }
+function resetGame(){
+    clearInterval(randomMoleInterval)
+    clearInterval(magicMoleInterval)
+    clearInterval(hotMoleInterval)
+    clearInterval(counter)
+    currentTime = 30
+    timer.innerHTML = `Timer: ${30}s`
+}
 // Create a function that will randomize the mole on the gameboard
 // Create a function that will allow the mole to be on said square for X amount of time using setInterval
 
@@ -48,8 +56,10 @@ let randomMolePosition =()=>{
     },800)
 }
 // randomMole()
+// checking to see if a random div would show up on the console.
 // randomHole()
 // setInterval(randomMolePosition, 1000)
+// Removed setInterval functions from randomPositions so they would only be called when start button is clicked. 
 
 let magicMolePosition=()=>{
     let randomMagicMole = holes[Math.floor(Math.random()*holes.length)]
