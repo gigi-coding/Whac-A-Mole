@@ -1,39 +1,38 @@
 # Whack-A-Mole
 
-## Project Description
-### Interactive game that requires moles to be whacked when they appear on the screen for points. Moles will appear on the screen and if the player whacks the mole before it dissapears a point will be added to the scoreboard. There is a time limit and once that time limit is reached the game is over. 
+### In this game, when the timer begins, "moles" will appear on the screen and the player will need to click on them aka WHACK them for points! But this isn't your typical Whack-A-Mole.. I felt bad whacking a poor little mole, so we get to whack some potatoes! 
 
-## Planning Process
-Jotting down ideas of what I need my game to do and what functions are required to make those things happen. 
-1. Ineed a 4x4 grid that will place an image on a square within that grid at random. 
-2. I will need event listeners on every square:
-3. Function to make an image appear on a random square on the grid.
-4. TimeOut functions that allow the image to only appear on the square for 2 seconds. 
-5. Function to add a point to the scoreboard everytime the user whacks(clicks) the mole and maybe create a reaction when the player is    successful.
-6. Funtion with timer to end the game after 1 min is over. 
-7. A button with a function that will reset the game. 
+ ### According to our beloved Wikipedia, Whac-A-Mole was an arcade game, originally known as Mogura Taiji or Mogura Tataki in Japan. In 1978, it debuted at a midway exhibition show, where it was the most popular game. The following year, it debuted at pinball parlours. In 1980, it was sold in the carnival, amusement park and coin-op arcade markets. Whac-A-Mole has since become a popular carnival game. 
 
-## Wire Frames
-![What-A-Mole](https://user-images.githubusercontent.com/101548840/162060307-a68218d1-0e6d-40d3-800a-f568a5ff24ac.png)
-
-
-![Whack-a-Mole2](https://user-images.githubusercontent.com/101548840/162064740-81cab9e4-9fd5-4181-8fdd-920c2bcea530.png)
+### But now in 2022, you can play it on the internet! 
 
 
 
-## User Stories
-As a player I want to be able to whack the mole when I click the mouse on the mole image.
-When the mole is successfully clicked I want the scoreboard to update by adding 1 point per mole.
-When the time limit is reached, the game will end. 
+## Screenshots
+
+Home Page of the Game: Click Whack-A-Mole to be taken to Game Page
+![image](https://user-images.githubusercontent.com/101548840/163052435-887e8f9a-e899-4075-90f5-9656dbba093c.png)
+Click Start Button to begin!
+![image](https://user-images.githubusercontent.com/101548840/163079531-d946be7e-3a54-460d-a73a-5375ca6a6346.png)
+Whack Potatoes to update Score until Timer reaches 0!
+![image](https://user-images.githubusercontent.com/101548840/163079632-9ed052ce-ff71-4f50-8704-95bf421410e7.png)
 
 
-## MVP Goals
-As a player I want to be able to whack the mole when I click the mouse on the mole image.
-When the mole is successfully clicked I want the scoreboard to update by adding 1 point per mole.
-When the time limit is reached, the game will end. 
 
-## Strech Goals
-I want to be able to keep track of previous game scores in a highscore board.
-I would like to add a golden mole that will give user 5 points and a black mole that will take away 5 points when clicked(whacked).
-Figure out how to turn my mouse pointer into a sledgehammer. 
-Make it a cool design with CSS! 
+
+## Technologies Used:
+HTML
+JavaScript
+CSS
+Flexbox
+
+## Getting Started: 
+
+ https://gigi-coding.github.io/Whac-A-Mole/
+
+Strech out that finger prior to starting. Some of these guys move fast. Some of these guys are fiesty, be careful! 
+
+
+## Next Steps: 
+Create a Highest Score Board. Find out how to use images with invisible backgrounds.
+
