@@ -25,8 +25,17 @@ function startGame(){
         }
     }
     let counter = setInterval(countDown, 1000);
+    let randomMoleInterval = setInterval(randomMolePosition, 1000)
+    let magicMoleInterval = setInterval(magicMolePosition, 5000)
+    let hotMoleInterval = setInterval(hotMolePosition, 500)
 }
 
+// resetButton.addEventListener("click", resetGame)
+ 
+// function resetGame(){
+//     clearInterval(randomMoleInterval)
+
+// }
 // Create a function that will randomize the mole on the gameboard
 // Create a function that will allow the mole to be on said square for X amount of time using setInterval
 
@@ -40,7 +49,7 @@ let randomMolePosition =()=>{
 }
 // randomMole()
 // randomHole()
-setInterval(randomMolePosition, 1000)
+// setInterval(randomMolePosition, 1000)
 
 let magicMolePosition=()=>{
     let randomMagicMole = holes[Math.floor(Math.random()*holes.length)]
@@ -50,7 +59,7 @@ let magicMolePosition=()=>{
             randomMagicMole.classList.remove("magicMole")
             },1000)
 }
-setInterval(magicMolePosition, 5000)
+// setInterval(magicMolePosition, 5000)
 
 let hotMolePosition=()=>{
     let randomHotMole = holes[Math.floor(Math.random()*holes.length)]
@@ -60,7 +69,7 @@ let hotMolePosition=()=>{
             randomHotMole.classList.remove("hotMole")
             },500)
 }
-setInterval(hotMolePosition, 500)
+// setInterval(hotMolePosition, 500)
 
 // Create a function that will have an eventListner on the gameboard hole so when it is clicked it will add a point to the scoreboard if there was a mole on it. 
 // Create a function for the scoreboard
@@ -100,8 +109,3 @@ function moleHit(event) {
 // function timerUpdate 
 
  //Create a function to stop the game when the timer ends
-
- function resetGame(){
-     currentScore === 0
-     currentTime === 30
- }
