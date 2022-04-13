@@ -14,7 +14,7 @@
 ### Click Whack-A-Mole to be taken to Game Page
 ![image](https://user-images.githubusercontent.com/101548840/163052435-887e8f9a-e899-4075-90f5-9656dbba093c.png)
 ### You will be taken to the Game Page & from here click Start button to begin!
-![image]![image](https://user-images.githubusercontent.com/101548840/163095743-afa58c00-9581-415a-828d-a4904723f0f5.png)
+![image](https://user-images.githubusercontent.com/101548840/163096831-b58de302-8aa9-4ce3-bce1-1ba89f4514a1.png)
 
 ### Whack Potatoes to update your Score until the Timer reaches 0!
 ![image]![image](https://user-images.githubusercontent.com/101548840/163096373-dcea16df-d682-4ce6-8715-912f08873452.png)
