@@ -1,4 +1,6 @@
 // Define all elements 
+const startButton = document.querySelector("#start");
+const resetButton = document.querySelector("#reset")
 const holes = document.querySelectorAll(".hole");
 const scoreBoard = document.querySelector(".score");
 let currentScore = 0;
@@ -6,8 +8,25 @@ let randomMole = holes[Math.floor(Math.random()*holes.length)]
 const timer = document.querySelector(".timer");
 let currentTime = 30
 
+//Start Button Function
 
+startButton.addEventListener("click",startGame)
+function startGame(){
+    holes.classList.hidden 
+    function countDown(){
 
+        currentTime = currentTime-1;
+        timer.innerHTML = `Timer: ${currentTime}s`
+        
+    
+        if (currentTime <= 0){
+            clearInterval(counter);
+            let gameboard = document.querySelector("#game")
+            gameboard.style.pointerEvents = "none";
+        }
+    }
+    let counter = setInterval(countDown, 1000);
+}
 
 // Create a function that will randomize the mole on the gameboard
 // Create a function that will allow the mole to be on said square for X amount of time using setInterval
@@ -77,23 +96,13 @@ function moleHit(event) {
 
 }
 
-let counter = setInterval(countDown, 1000);
-
-function countDown(){
-
-    currentTime = currentTime-1;
-    timer.innerHTML = `Timer: ${currentTime}s`
-
-    if (currentTime <= 0){
-        clearInterval(counter);
-        let gameboard = document.querySelector("#game")
-        gameboard.style.pointerEvents = "none";
-    }
-}
-
-
     
 // Create a function to keep track of the time
 // function timerUpdate 
 
  //Create a function to stop the game when the timer ends
+
+ function resetGame(){
+     currentScore === 0
+     currentTime === 30
+ }
