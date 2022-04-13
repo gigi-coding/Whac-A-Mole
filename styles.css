@@ -69,6 +69,10 @@ h2{
     background-repeat: no-repeat;
 }  
 
+.hidden{
+    visibility: hidden;
+}
+
 .keepers{
     /* display: flex; */
     flex-direction: column;
@@ -83,11 +87,7 @@ h2{
     /* border: 10px double #4e3862; */
     border-radius: 10px;
 }
-#score{
-    
-}
-.buttons{
-}
+
 
 .board {
     display: flex;

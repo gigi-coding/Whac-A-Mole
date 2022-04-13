@@ -8,11 +8,10 @@ let randomMole = holes[Math.floor(Math.random()*holes.length)]
 const timer = document.querySelector(".timer");
 let currentTime = 30
 
-//Start Button Function
+//Start Button Function, to start the timer on the game and prevent anything from being clicked besides the Start button.
 
 startButton.addEventListener("click",startGame)
 function startGame(){
-    holes.classList.hidden 
     function countDown(){
 
         currentTime = currentTime-1;
