@@ -10,11 +10,12 @@
 
 ## Screenshots
 
-Home Page of the Game: Click Whack-A-Mole to be taken to Game Page
+### This is the Home Page of the Game: 
+### Click Whack-A-Mole to be taken to Game Page
 ![image](https://user-images.githubusercontent.com/101548840/163052435-887e8f9a-e899-4075-90f5-9656dbba093c.png)
-Click Start Button to begin!
+### You will be taken to the Game Page & from here click Start button to begin!
 ![image](https://user-images.githubusercontent.com/101548840/163079531-d946be7e-3a54-460d-a73a-5375ca6a6346.png)
-Whack Potatoes to update Score until Timer reaches 0!
+### Whack Potatoes to update your Score until the Timer reaches 0!
 ![image](https://user-images.githubusercontent.com/101548840/163079632-9ed052ce-ff71-4f50-8704-95bf421410e7.png)
 
 
@@ -30,9 +31,20 @@ Flexbox
 
  https://gigi-coding.github.io/Whac-A-Mole/
 
-Strech out that finger prior to starting. Some of these guys move fast. Some of these guys are fiesty, be careful! 
+Strech out that finger prior to starting. 
+In the main page click the words "Whack-A-Mole" to be taken to the Game page. 
+Once you're in hte Game Page you will need to press the Start button to begin playing. As soon as the START button is clicked the timer countdown will begin, so start whacking those potatoes! Some of these guys move fast. Some potatoes are naughty & others are nice and they come with their own special surprises! Pay attention to the Score!
+Once the Timer hits 0 you will no longer be able to whack any more potatoes! 
+
 
 
 ## Next Steps: 
 Create a Highest Score Board. Find out how to use images with invisible backgrounds.
 
+## Author
+"Gigi" Brigitte Quintero
+@gigi-coding
+
+## Acknowledgements 
+Inspiration for font https://welearncode.com/rainbow-text/
+Giphy for fun images
