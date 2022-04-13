@@ -17,6 +17,7 @@
 ![image](https://user-images.githubusercontent.com/101548840/163096831-b58de302-8aa9-4ce3-bce1-1ba89f4514a1.png)
 
 ### Whack Potatoes to update your Score until the Timer reaches 0!
+The Astronauts are cheering for you! Or are they? 
 ![image]![image](https://user-images.githubusercontent.com/101548840/163096373-dcea16df-d682-4ce6-8715-912f08873452.png)
 
 
